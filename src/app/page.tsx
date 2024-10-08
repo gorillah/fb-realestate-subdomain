@@ -59,25 +59,25 @@ export default function HomePage() {
           </Link>
           <nav className="hidden space-x-8 md:flex">
             <Link
-              href="#projects"
+              href="#"
               className="font-bold text-white transition-all duration-500 ease-in-out hover:text-gray-200 hover:underline"
             >
               Lorem
             </Link>
             <Link
-              href="#about"
+              href="#"
               className="font-bold text-white transition-all duration-500 ease-in-out hover:text-gray-200 hover:underline"
             >
               Ipsum
             </Link>
             <Link
-              href="#media"
+              href="#"
               className="font-bold text-white transition-all duration-500 ease-in-out hover:text-gray-200 hover:underline"
             >
               Dolor
             </Link>
             <Link
-              href="#contact"
+              href="#"
               className="font-bold text-white transition-all duration-500 ease-in-out hover:text-gray-200 hover:underline"
             >
               Sit
@@ -561,7 +561,7 @@ export default function HomePage() {
               <ul className="space-y-2">
                 <li>
                   <Link
-                    href="#projects"
+                    href="#"
                     className="text-gray-400 transition-colors hover:text-white"
                   >
                     Dolor
@@ -569,7 +569,7 @@ export default function HomePage() {
                 </li>
                 <li>
                   <Link
-                    href="#about"
+                    href="#"
                     className="text-gray-400 transition-colors hover:text-white"
                   >
                     Sit
@@ -577,7 +577,7 @@ export default function HomePage() {
                 </li>
                 <li>
                   <Link
-                    href="#media"
+                    href="#"
                     className="text-gray-400 transition-colors hover:text-white"
                   >
                     Amet
@@ -585,7 +585,7 @@ export default function HomePage() {
                 </li>
                 <li>
                   <Link
-                    href="#contact"
+                    href="#"
                     className="text-gray-400 transition-colors hover:text-white"
                   >
                     Consectetur
