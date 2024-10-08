@@ -28,17 +28,17 @@ import {
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 
-const fadeIn = {
-  hidden: { opacity: 0 },
-  visible: { opacity: 1, transition: { duration: 0.6 } },
-};
-
-const slideIn = {
-  hidden: { x: -50, opacity: 0 },
-  visible: { x: 0, opacity: 1, transition: { duration: 0.6 } },
-};
-
 export default function HomePage() {
+  const fadeIn = {
+    hidden: { opacity: 0 },
+    visible: { opacity: 1, transition: { duration: 0.6 } },
+  };
+
+  const slideIn = {
+    hidden: { x: -50, opacity: 0 },
+    visible: { x: 0, opacity: 1, transition: { duration: 0.6 } },
+  };
+
   return (
     <div className="min-h-screen bg-[#f4f4f4]">
       {/* Header */}
